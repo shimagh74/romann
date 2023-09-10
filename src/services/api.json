@@ -1,0 +1,4 @@
+{
+    "FetchPropertyPage": "http://localhost:4200/property",
+    "FetchBlogPage": "https://api.romannhome.com/api/v2/pages/?type=blog.BlogPage&order=-id&locale=en&fields=*&tags=blog"
+}

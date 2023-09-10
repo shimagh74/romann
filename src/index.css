@@ -1,0 +1,103 @@
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: "TEXT" !important;
+  direction: rtl;
+}
+
+/* body::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+/* body { */
+  /* -ms-overflow-style: none; */
+  /* IE and Edge */
+  /* scrollbar-width: none; */
+  /* Firefox */
+/* } */ 
+* {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #7e7e7e !important;
+}
+button {
+  transition: all 0.3 linear;
+  outline: none;
+  cursor: pointer;
+}
+input{
+  outline: none;
+}
+video{
+  outline: none;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.wrapped {
+  flex-wrap: wrap;
+}
+.al-center {
+  align-items: center;
+}
+.jus-center {
+  justify-content: center;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.jus-between {
+  justify-content: space-between;
+}
+.al-start {
+  align-items: flex-start;
+}
+.hi-100 {
+  height: 100%;
+  min-height: 100%;
+}
+.wi-45 {
+  width: 45%;
+  min-width: 45%;
+}
+.wi-40 {
+  width: 40%;
+  min-width: 40%;
+}
+.wi-55 {
+  width: 55%;
+  min-width: 55%;
+}
+.wi-70 {
+  width: 70%;
+  min-width: 70%;
+}
+.wi-75 {
+  width: 75%;
+  min-width: 75%;
+}
+.wi-80 {
+  width: 80%;
+  min-width: 80%;
+}
+.wi-100 {
+ width: 100%;
+ min-width: 100%;
+} 
+.margin-bottom-8 {
+  margin-bottom: 8px;
+}
