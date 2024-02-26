@@ -1,0 +1,167 @@
+// $primary-color: #e8b30b;
+// $second-color: #2a2a2a;
+// $Third-color: #F7F7F7;
+// .cards {
+//     margin-bottom: 20px;
+
+//     .listing-grid-view-card {
+//         padding: 0 8px 16px;
+//         // width: 26%;
+//         .romann-listing-card:hover {
+//             box-shadow: 0 1px 16.17px 4.83px rgb(209 211 213 / 77%);
+//             -webkit-box-shadow: 0 1px 16.17px 4.83px rgb(209 211 213 / 77%);
+//             -moz-box-shadow: 0 1px 16.17px 4.83px rgba(209,211,213,.77);
+//         }
+//         .romann-listing-card {
+//             height: 477px;
+//             width: 274px;
+//             background-color: #fff;
+//             box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+//             -webkit-box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+//             -moz-box-shadow: 0 3px 6px rgba(0,0,0,.16);
+//             border-radius: 10px;
+//             color: #373435;
+//             transition: all 0.3s ease;
+
+//             .image-holder {
+//                 position: relative;
+//                 height: 274px;
+//                 border-top-left-radius: 10px;
+//                 border-top-right-radius: 10px;
+//                 background: transparent no-repeat 50%;
+//                 background-size: cover;
+//                 .more-info {
+//                     position: absolute;
+//                     bottom: 34px;
+//                     right: 0;
+//                     height: 32px;
+//                     padding: 10px;
+//                     font-size: 10px;
+//                     color: #fff;
+//                     border-top-left-radius: 10px;
+//                     border-bottom-left-radius: 10px;
+//                     background-color: rgba(0,0,0,.4);
+//                     backdrop-filter: blur(3px);
+//                     .photo {
+//                         margin-left: 8px;
+//                         span {
+//                             font-size: 14px;
+//                         }
+//                         .mdi {
+//                             font-size: 20px;
+//                         }
+//                     }
+//                 }
+//                 .title-holder {
+//                     position: absolute;
+//                     bottom: 0;
+//                     height: 32px;
+//                     width: 100%;
+//                     padding: 0 8px;
+//                     background: linear-gradient( 0deg ,rgba(0,0,0,.8) 0,rgba(0,0,0,.001));
+//                     .card-title {
+//                         font-size: 12px;
+//                         font-weight: 500;
+//                         line-height: 15px;
+//                         color: #fff;
+//                         width: 100%;
+//                         white-space: nowrap;
+//                         overflow: hidden;
+//                         text-overflow: ellipsis;
+//                     }
+//                 }
+//             }
+//             .card-detail-holder {
+//                 position: relative;
+//                 flex: 1;
+//                 padding: 12px 16px 16px;
+//             }
+//             .property-info {
+//                 margin-bottom: 16px;
+//                 .single-info {
+//                     font-size: 11px;
+//                     white-space: nowrap;
+//                     .icon {
+//                         margin-left: 4px;
+//                         font-size: 19px;
+
+//                     }
+//                 }
+//             }
+//             .address {
+//                 font-size: 12px;
+//                 font-weight: 500;
+//                 line-height: 18px;
+//                 margin-bottom: 12px;
+//                 .mdi {
+//                     font-size: 19px;
+//                 }
+//             }
+//             .price-holder {
+//                 margin: 10px 0 25px;
+//                 .single-price:last-child {
+//                     margin-bottom: 0;
+//                 }
+//                 .single-price {
+//                     font-size: 15px;
+//                     font-weight: 700;
+//                     line-height: 19px;
+//                     color: $second-color;
+//                     margin-bottom: 12px;
+//                     .title {
+//                         font-size: 11px;
+//                         font-weight: 500;
+//                     }
+//                 }
+//                 .buy-prices {
+//                     .title {
+//                         width: 42px;
+//                     }
+//                 }
+//             }
+//             .sell-label {
+//                 font-size: 17px;
+//                 font-weight: 700;
+//                 line-height: 19px;
+//                 color: $second-color;
+//                 margin-bottom: 12px;
+//                 .mdi {
+//                     font-size: 20px;
+//                 }
+
+//             }
+//             .calling-agent-button {
+//                 width: 100%;
+//                 height: 36px;
+//                 font-size: 16px;
+//                 background-color: $primary-color;
+//                 color: $Third-color;
+//                 padding: 4px 16px 4px 12px;
+//                 border: 1px solid $primary-color;
+//                 border-radius: 18px;
+//                 box-shadow: 0 1px 3px rgb(0 0 0 / 16%);
+//                 -webkit-box-shadow: 0 1px 3px rgb(0 0 0 / 16%);
+//                 -moz-box-shadow: 0 1px 3px rgba(0,0,0,.16);
+//                 cursor: pointer;
+//                 .icon {
+//                     margin-left: 8px;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 1440px)
+// {
+//     .container {
+//     width: 1180px;
+// }}
+
+// @media screen and (max-width: 1024px)
+// {.container {
+//     width: 750px;
+// }}
+// @media screen and (max-width: 768px)
+// {.container {
+//     width: 95%;
+// }}
