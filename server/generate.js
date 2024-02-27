@@ -1,8 +1,8 @@
 const { data } = require("autoprefixer");
 var faker = require("faker");
-faker.locale = "fa";
+faker.locale = "en";
 
- var database = {};
+var database = {};
 
 var typeOfHouse = [
   { value: 1, text: "ویلایی" },
