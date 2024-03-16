@@ -24,53 +24,18 @@ const CustomHeader = ({history, dataSource}) => {
                         <input type="checkbox" id="menu"/>
                         <ul className="top_menu">
                             <li>
-                                <a href="/buy/Buy">خرید</a>
+                                <a href="/buy/Buy">Buy</a>
                             </li>
-                            {/* <li className="menu-hasdropdown">
-                                <a href="/rent/Rent">رهن و اجاره
-                                    <label title="toggle menu" for="about">
-                                        <i className="mdi mdi-chevron-down"></i>
-                                    </label>
-                                </a>
-                                <input type="checkbox" id="about"/>
-                                <ul className="menu-dropdown">
-                                    <li>
-                                        <a href="">رهن و اجاره ویلا</a>
-                                    </li>
-                                    <li>
-                                        <a href="">رهن و اجاره باغ</a>
-                                    </li>
-                                    <li className="menu-hasdropdown menu-hasflyout">
-                                        <a href="">رهن و اجاره آپارتمان مسکونی {/* <label title="toggle menu" for="services">
-                                    <i className="mdi mdi-chevron-down"></i>
-                                        <i class="fa fa-caret-right menu-righticon"></i>
-                                    </label> */}
-                                        {/* </a> */}
-                                        {/* <input type="checkbox" id="services"/>
-                                <ul class="menu-dropdown">
-                                    <li>
-                                        <a href="">Service 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Service 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Service 3</a>
-                                    </li>
-                                </ul>  */}
-                                    {/* </li> */}
-                                {/* </ul> */}
-                            {/* </li>  */}
                             <li>
-                                <a href="/aboutUs/AboutUs">درباره ما</a>
+                                <a href="/aboutUs/AboutUs"> About us</a>
                             </li>
                             <li>
                                 <a href="/contact/Contact">
-                                    تماس با ما</a>
+                                Contact us</a>
                             </li>
                             <li>
                                 <a href="/mag/Mag">
-                                      مجله رومن</a>
+                                News</a>
                             </li>
                         </ul>
                     </nav>

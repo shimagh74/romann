@@ -123,12 +123,12 @@ class Buy extends React.Component {
                             <div>
                 <header className="header-big buy-header-big">
                     <ContainerSearch
-                        mainTitle="خرید خانه و آپارتمان با رومن"
-                        secondTitle="رومن، شما را در یافتن خانه یاری می‌کند"/>
+                        mainTitle="Buying houses and apartments with Roman"
+                        secondTitle="Roman will help you find a home"/>
                 </header>
                 <div className="row">
                     <div className="col-12 text-right  ">
-                        <h2>خرید و فروش آپارتمان</h2>
+                    <h2>Buying and selling apartments</h2>
                     </div>
                 </div>
                  <Modal
@@ -150,12 +150,12 @@ class Buy extends React.Component {
                                             <span className="icon-filter filters--icon ">
                                                 <i className="mdi mdi-filter-variant"></i>
                                             </span>
-                                            فیلتر نتایج
+                                            Filter results
                                         </div>
                                     </header>
                                     <div className="card-body p-0">
                                         <div className="text-right col-12">
-                                            <div className="d-inline-block card-header--withIcon mt-3">تعداد نتایج</div>
+                                            <div className="d-inline-block card-header--withIcon mt-3"> Number of results</div>
                                             <span className="filters__count">9851</span>
                                             <a href="/#" className="btn-link btn-link--danger d-inline-block float-left mt-3">حذف فیلتر</a>
                                             <hr className="filters--divider"/>
@@ -172,7 +172,6 @@ class Buy extends React.Component {
                                                                 <div id="collapse4" className="collapse show">
                                                                     <div className="card">
                                                                         <div className="card-body p-0 pt-3 text-right">
-                                                                            <div>
                                                                                 <div className="checkbox-wrapper pr-2">
                                                                                     <div className="bv-no-focus-ring" id="__BVID__69">
                                                                                         {this
@@ -193,7 +192,6 @@ class Buy extends React.Component {
                                                                                             })}
                                                                                     </div>
                                                                                 </div>
-                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>

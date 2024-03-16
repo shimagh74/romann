@@ -2,7 +2,7 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   font-family: "TEXT" !important;
-  direction: rtl;
+  /* direction: rtl; */
 }
 
 /* body::-webkit-scrollbar {

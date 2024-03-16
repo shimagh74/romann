@@ -72,16 +72,16 @@ class Home extends React.Component {
             <Mainpage>
                 <header className="header-big">
                     <ContainerSearch
-                        mainTitle="انتخاب خانه، هوشمندتر از همیشه"
-                        secondTitle="رومن، شما را در یافتن خانه یاری می‌کند" />
+                        mainTitle="Choosing a home is smarter than ever."
+                        secondTitle="Roman will help you find a home" />
                 </header>
                 <section className="flex-row al-center jus-center wrapped container info-part">
                     <div className="flex-col al-start jus-center wi-40 wi-l-100 static-info">
-                        <h2>بازار مسکن را ارزیابی کنید</h2>
-                        <p>در بازار مسکن، داشتن اطلاعات و داده‌های دقیق «طلایی ترین فرصتها» را برای
-                        خریداران و سرمایه گذاران فراهم می کند. در رومن این داده‌ها و اطلاعات پردازش شده
-                        و نتیجه پردازش در اختیار مشترکان رومن قرار می‌گیرد. با تحلیل گذشته و رصد کردن
-                            امروز بازار مسکن، خانه آینده را بسازید.</p>
+                    <h2>Evaluate the housing market</h2>
+                    <p>In the housing market, having accurate information and data is the "golden opportunities" for
+                         provides buyers and investors. In Roman, these data and information are processed
+                         And the processing result is provided to Roman subscribers. By analyzing the past and observing
+                             Build the house of the future in the housing market today.</p>
                     </div>
                     <figure className="flex-col al-center wi-45 wi-l-80 wi-ml-90 home-svg-icon">
                         <img src={pic1}/>
@@ -111,8 +111,8 @@ class Home extends React.Component {
                     <a className="flex-row al-center jus-center button" href="../buy/Buy">نمایش همه آگهی ها</a>
                 </section>
                 <section className="flex-col al-center blog">
-                    <h2 className="container">تازه ترین مطالب وبلاگ</h2>
-                    <p className="wi-50 wi-l-85 wi-ml-95">همه ی چیزهایی که باید درباره املاک بدانیم</p>
+                    <h2 className="container">The latest blog content</h2>
+                    <p className="wi-50 wi-l-85 wi-ml-95"> Everything you need to know about real estate</p>
                     <div
                         className="flex-row jus-center wrapped wi-85 wi-ml-100 container blogs-holder">
                         {blogData.map((blogCard, n) => {
@@ -144,22 +144,9 @@ class Home extends React.Component {
                         <div className="flex-col al-center information-part">
                             <div className="icon"><img src={pic2}></img></div>
                             <h4 className="part-title">رومن، پنجره‌ای نو به دنیای مسکن</h4>
-                            <p className="info">رومن، سامانه هوشمند مسکن (شرکت کلان داده شهر فناوران)،
-                            وبسایت و اپلیکیشن هوشمند برای جستجو و ثبت آگهی خرید، فروش، رهن و اجاره ملک است.
-                            آژانس‌های املاک و بنگاه‌های معاملات ملکی و همینطور مالکین شخصی که قصد خرید، فروش
-                            یا رهن و اجاره ملک دارند، می‌توانند آگهی ملک خود را شامل آپارتمان مسکونی، تجاری
-                            یا اداری، نوساز یا کلنگی، مغازه، زمین و ویلا در رومن ثبت کنند. از مزیت‌های
-                            وبسایت و اپلیکیشن رومن می‌توان به امکان جستجوی ملک روی نقشه، جستجوی ملک با
-                            واقعیت افزوده و دسترسی به آخرین تغییرات قیمت در بازار مسکن اشاره کرد. هم‌چنین
-                            کاربران در سایت و اپلیکیشن رومن به اطلاعات آژانس‌های معاملات املاک و بنگاه‌ها
-                            معاملات ملکی در تهران و سایر شهرها دسترسی دارند. رومن، سامانه هوشمند مسکن با
-                            استفاده از فناوری‌های نوین و بستر اینترنت به مالکین و خریداران ملک کمک می‌کند تا
-                            به آسانی و با سرعت، ملک موردنظر خود را آگهی کرده و به فروش برسانند. وب سایت و
-                            اپلیکیشن رومن به دلیل آنلاین بودن خدمات، محدودیتی در ارائه خدمات در سراسر ایران
-                            ندارد ولی در فاز اول در تهران و کرج شروع به سرویس دهی کرده است و در فازهای بعدی
-                            تمام شهرهای ایران را پوشش خواهد داد. دفتر مرکزی رومن در تهران در خیابان وزرا
-                            واقع شده اما به دلیل آنلاین بودن خدمات در ساست و اپلیکیشن رومن، دایره مشتریان
-                                رومن در سراسر ایران خواهد بود.</p>
+                            <p className="info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
                             <a></a>
                         </div>
                     </div>
